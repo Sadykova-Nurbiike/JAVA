@@ -110,6 +110,7 @@ Use Java.text.SimpleDateFormat for the dates formatting and parsing (if necessar
 Use some library for creating the random Oompa Loompa song
 
 Recommendations:
+
 if for instance the number of tickets is bigger than the number of products, it is okay to simply add the tickets to the products and inform the user, you don't need to ask the user to inform another number (unless you want);
 
 You can create a class on a separated file to populate the Arrays (it will be less messy for your Main).
