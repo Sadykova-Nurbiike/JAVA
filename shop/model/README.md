@@ -1,10 +1,10 @@
 Description
 
-The Coffee shop ultimate vending control
-Your task is to create a software able to manage sales of a coffee shop
+The Coffee shop ultimate vending control.
+Your task is to create a software able to manage sales of a coffee shop.
 
-GRADE 2
-The Coffee basis
+GRADE 2:
+The Coffee basis:
 First of all we would like to manage the basic coffee sales, for such we will have one generic class of coffee and two specializations for it.
 
 Let's first create a class shop.model.Coffee with the attribute price, which will store the price of a certain coffee.
