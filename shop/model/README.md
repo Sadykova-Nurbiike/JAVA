@@ -1,4 +1,5 @@
 Description
+
 The Coffee shop ultimate vending control
 Your task is to create a software able to manage sales of a coffee shop
 
