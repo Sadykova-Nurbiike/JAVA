@@ -1,1 +1,1 @@
-My projects for the course Java at university.
+My projects for the course Java.
