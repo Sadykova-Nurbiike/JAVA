@@ -3,8 +3,10 @@ Description
 The Coffee shop ultimate vending control.
 Your task is to create a software able to manage sales of a coffee shop.
 
-GRADE 2:
-The Coffee basis:
+GRADE 2
+
+The Coffee basis
+
 First of all we would like to manage the basic coffee sales, for such we will have one generic class of coffee and two specializations for it.
 
 Let's first create a class shop.model.Coffee with the attribute price, which will store the price of a certain coffee.
@@ -25,14 +27,19 @@ Override the toString methods of Cofee, Espresso and Capuccino and print it on t
 
 TIP: depending on how you call the toString method due to the static method it may print coffees with the same value, that's okay
 
+
 coffees: 1, price: 1,50, Capuccino, 3dl coffee, 3dl milk
+
 coffees: 2, price: 0,75, Espresso, 3dl coffee
+
 coffees: 3, price: 0,75, Espresso, 2dl coffee
+
 Where the "coffee: n" represents the output of coffeesAmount function.
 
 Suggestion: use SimpleDateFormat with the parameter "HH:mm" for the order and delivery time.
 
 GRADE 3
+
 First, make sure that you've finished everything in the exercise for GRADE 2.
 
 If you haven't, stop, and go back.
@@ -47,12 +54,17 @@ Create and implement a method totalPrice to calculate the total price of the cur
 In your main method now, Create a new Order with one Capuccino and set deliveredTime as 20:55 , put the order time and call the isLate function with hardcoded time of 20:51. The output should have the following information:
 
 Order Output:
+
 Ordered: 20:50
+
 Delivered: 20:55 [late]
+
 Price: 1,50
+
 coffees: 4,  price: 1,50, Capuccino, 3dl coffee, 3dl milk
 
 GRADE 4
+
 There is a new system in the coffee shop to schedule the orders, your colleague is implementing the Brownies system and asked if you could create an Interface so that you could use the same method signatures and guarantee the success of the implementation of the scheduler.
 
 So implement an Interface inside the models package called OrderNumber, this should have the signature of a method called getOrderNumber and another method called reOrder this second one takes a list of Order as parameter and doesn't return anything.
@@ -66,21 +78,34 @@ Add the tree coffees created on the first part of the exercise to an Order with 
 Call the two orders toString, the output should look more or less like the following:
 
 Order Output:
+
 Ordered: 20:50
+
 Delivered: 20:55 [late]
+
 Price: 1,50
 Order: 1
+
 coffees: 4, price: 1,50, Capuccino, 3dl coffee, 3dl milk
+
 Order Output:
+
 Ordered: 20:49
+
 Delivered: 20:55 [late]
+
 Price: 3
+
 Order: 1
+
 coffees: 4, price: 1,50, Capuccino, 3dl coffee, 3dl milk,  
+
 coffees: 4, price: 0,75, Espresso, 3dl coffee
+
 coffees: 4, price: 0,75, Espresso, 3dl coffee
 
 GRADE 5
+
 Create a function called PrintOrder, that takes an Order as argument and prints out the Order into a file called with the Order Number with the information like seen on the toString method inside the files.
 
 After all the execution ask the user if he/she wants to print out the orders, if the answer is "Y", call the PrintOrder function for all the orders inside the ArrayList orders.
